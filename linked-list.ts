@@ -16,7 +16,7 @@ abstract class LinkedList {
     public PUT_LEFT_ERR = 2; // список пуст
 
     public ADD_TO_EMPTY_OK = 1; // последняя операция add_to_empty() отработала нормально
-    public ADD_TO_EMPTY_ERR = 2; // список не пустой пуст
+    public ADD_TO_EMPTY_ERR = 2; // список не пустой
 
     public ADD_TAIL_OK = 1; // последняя операция add_tail() отработала нормально
     public ADD_TAIL_ERR = 2; // список пуст
