@@ -31,6 +31,7 @@ abstract class ParentQueue<T> {
 
   // запросы статусов
   abstract get_remove_front_status(): number; // успешно; очередь пуста
+
   abstract get_get_front_status(): number; // успешно; очередь пуста
 }
 
