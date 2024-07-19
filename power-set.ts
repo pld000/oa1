@@ -1,7 +1,7 @@
 abstract class PowerSet {
   public REMOVE_NIL = 0; // операция remove() не вызывалась
   public REMOVE_OK = 1; // последняя операция remove() отработала нормально
-  public REMOVE_ERR = 2; // множество пустое
+  public REMOVE_ERR = 2; // значение отсутствует на множестве
 
   private poserSet: any[];
 
@@ -37,7 +37,7 @@ abstract class PowerSet {
   };
 
   // Запросы
-  abstract get(value: any): boolean { // проверить наличие значения во множестве
+  abstract get(value: any): boolean { // проверить наличие значения на множестве
     return Boolean(this.poserSet.find(item => item === value));
   }
 
